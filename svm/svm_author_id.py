@@ -7,10 +7,12 @@
     Sara has label 0
     Chris has label 1
 """
-    
 import sys
+sys.path.append('chriscts57/ud120-projects/tools/')
+sys.path.append('chriscts57/ud120-projects/choose_your_own')
+sys.path.append('chriscts57/ud120-projects/svm')
+
 from time import time
-sys.path.append("../tools/")
 from email_preprocess import preprocess
 
 
